@@ -10,5 +10,7 @@ public class CrystalfMod implements ModInitializer {
     @Override
     public void onInitialize() {
         LOGGER.info("Проект загружен успешно");
+        ModBlocks.initialize();
+        ModItems.initialize();
     }
 }
