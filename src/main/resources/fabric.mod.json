@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "minecraft-mod-i9-23v",
+  "version": "${version}",
+  "name": "Energy Crystal Mod",
+  "description": "Учебный мод с блоком «Энергокристалл» для Minecraft.",
+  "authors": [
+    "Мусин Ильнур"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ru.college.i923v.CrystalfMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
