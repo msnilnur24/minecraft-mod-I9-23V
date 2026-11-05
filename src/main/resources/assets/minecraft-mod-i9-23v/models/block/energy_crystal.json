@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "minecraft-mod-i9-23v:block/energy_crystal"
+  }
+}

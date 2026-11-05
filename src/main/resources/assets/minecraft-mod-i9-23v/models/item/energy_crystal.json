@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft-mod-i9-23v:block/energy_crystal"
+  }
+}
