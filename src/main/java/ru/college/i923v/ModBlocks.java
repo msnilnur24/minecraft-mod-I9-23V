@@ -13,7 +13,8 @@ public class ModBlocks {
             Identifier.of("minecraft-mod-i9-23v", "energy_crystal"),
             new Block(AbstractBlock.Settings.copy(Blocks.IRON_BLOCK)
                     .strength(3.0f, 6.0f)
-                    .luminance(state -> 8))
+                    .luminance(state -> 8)
+                    .requiresTool())
     );
 
     public static void initialize() {

@@ -12,5 +12,6 @@ public class CrystalfMod implements ModInitializer {
         LOGGER.info("Проект загружен успешно");
         ModBlocks.initialize();
         ModItems.initialize();
+        ModItemGroups.registerItemGroups();
     }
 }
